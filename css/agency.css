@@ -41,6 +41,13 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.slidehow img {
+    width: auto;
+    height: 878px;
+    max-height: 878px;
+}
+
 .img-centered {
   margin: 0 auto;
 }
@@ -142,12 +149,12 @@ fieldset[disabled] .btn-xl.active {
   background-color: #ffffff;
 }
 .navbar-default {
-  background-color: #f1e9ed;
+  background-color: #a1dcf1;
   border-color: transparent;
 }
 .navbar-default .navbar-brand {
   color: #dd4814;
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
@@ -174,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 1px;
-  color: white;
+  color: black; /*color of nav links */
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -210,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
     border-radius: 3px;
   }
   .navbar-default.navbar-shrink {
-    background-color: #f1e9ed;
+    background-color: #a1dcf1;
     padding: 10px 0;
   }
   .navbar-default.navbar-shrink .navbar-brand {
@@ -218,7 +225,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  /*background-image: url('../img/header-bg.jpg'); */
+  background-image: url('../img/background/houses_water.jpg'); 
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -241,7 +248,7 @@ header .intro-text .intro-lead-in {
   margin-bottom: 25px;
 }
 header .intro-text .intro-heading {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 50px;
@@ -250,7 +257,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 300px;
+    padding-top: 500px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
@@ -261,12 +268,12 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
   }
   header .intro-text .intro-heading {
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 75px;
-    line-height: 75px;
-    margin-bottom: 50px;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
   }
 }
 section {
@@ -731,3 +738,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #dd4814;
 }
+
+
+
+
