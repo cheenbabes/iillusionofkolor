@@ -3,6 +3,8 @@ body {
     font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+@font-face { font-family: Optimus; src: url(../fonts/OptimusPrincepsSemiBold.ttf); }
+
 .text-muted {
     color: #777777;
 }
@@ -184,7 +186,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     color: #dd4814;
-    font-family: "Oswald", "Helvetica Neue", Helvetica, Arial, cursive;
+    font-family: "Optimus", "Helvetica Neue", Helvetica, Arial, cursive;
 }
 
 .navbar-default .navbar-brand:hover,
