@@ -42,6 +42,10 @@ h6 {
   font-weight: 700;
 }
 
+.normal{
+    text-transform: none;
+}
+
 .slidehow img {
     width: auto;
     height: 878px;
@@ -182,6 +186,7 @@ fieldset[disabled] .btn-xl.active {
   font-weight: 400;
   letter-spacing: 1px;
   color: black; /*color of nav links */
+  background-color: rgba(231,246,251,0.5);
 }
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
@@ -225,7 +230,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/background/houses_water.jpg'); 
+  background-image: url('../img/photo%203%20(1)_cropped_large.jpg'); 
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -239,6 +244,7 @@ header {
 header .intro-text {
   padding-top: 100px;
   padding-bottom: 50px;
+margin: auto;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -257,7 +263,7 @@ header .intro-text .intro-heading {
 }
 @media (min-width: 768px) {
   header .intro-text {
-    padding-top: 500px;
+    padding-top: 350px;
     padding-bottom: 200px;
   }
   header .intro-text .intro-lead-in {
